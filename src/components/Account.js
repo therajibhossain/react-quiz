@@ -13,7 +13,11 @@ export default function Account() {
             account_circle
           </span>
           <span>{currentUser.displayName}</span>
-          <span class="material-icons-outlined" title="Logout" onClick={logout}>
+          <span
+            className="material-icons-outlined"
+            title="Logout"
+            onClick={logout}
+          >
             {" "}
             logout{" "}
           </span>
