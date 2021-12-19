@@ -37,7 +37,7 @@ function App() {
             />
             <Route
               exact
-              path="/quiz"
+              path="/quiz/:id"
               element={
                 <PrivateRoute>
                   <Quiz />
@@ -46,7 +46,7 @@ function App() {
             />
             <Route
               exact
-              path="/result"
+              path="/result/:id"
               element={
                 <PrivateRoute>
                   <Result />
