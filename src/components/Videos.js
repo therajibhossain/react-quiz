@@ -1,6 +1,6 @@
+import { useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { Link } from "react-router-dom";
-import { useState } from "react/cjs/react.development";
 import useVideoList from "../hooks/useVideoList";
 import Video from "./Video";
 
