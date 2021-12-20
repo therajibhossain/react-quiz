@@ -1,4 +1,4 @@
-import { Fragment } from "react/cjs/react.development";
+import { Fragment } from "react";
 import classes from "../styles/Answers.module.css";
 import Checkbox from "./Checkbox";
 

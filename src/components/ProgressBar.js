@@ -1,5 +1,4 @@
-import { useRef, useState } from "react/cjs/react.development";
-// import { useRef } from "react/cjs/react.production.min";
+import { useRef, useState } from "react";
 import classes from "../styles/ProgressBar.module.css";
 import Button from "./Button";
 

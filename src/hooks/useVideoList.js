@@ -7,8 +7,7 @@ import {
   ref,
   startAt,
 } from "firebase/database";
-import { useEffect } from "react";
-import { useState } from "react/cjs/react.development";
+import { useEffect, useState } from "react";
 
 export default function useVideoList(page) {
   const [loading, setLoading] = useState(true);
